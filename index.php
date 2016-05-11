@@ -2,8 +2,6 @@
 
 include 'config/db.php';
 
-
-
 mysql_connect($hostname_DB,$username_DB,$password_DB);
 @mysql_select_db($database_DB) or die( "Unable to select database");
 $query="SELECT * FROM phptest";
